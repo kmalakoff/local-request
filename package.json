@@ -1,0 +1,31 @@
+{
+  "name": "local-request",
+  "version": "1.0.0",
+  "description": "Generate superagent-compliant requests that can be used for mocking or wrapping APIs with in-process HTTP interfaces",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js",
+    "testDebugger": "iron-node node_modules/.bin/_mocha test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:kmalakoff/local-request.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/kmalakoff/local-request",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "component-emitter": "^1.2.0",
+    "inherits": "^2.0.1",
+    "lodash.assign": "^4.0.0",
+    "lodash.defer": "^4.0.0",
+    "lodash.isstring": "^4.0.0",
+    "lodash.isundefined": "^3.0.1",
+    "lodash.pick": "^4.0.0",
+    "route-recognizer": "^0.1.9"
+  }
+}
